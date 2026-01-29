@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3042130312548188379}
   - component: {fileID: 5121061702746152977}
   - component: {fileID: 7287655115591897872}
-  - component: {fileID: 5040740396724968153}
+  - component: {fileID: 9217457483124972263}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -128,7 +128,7 @@ MonoBehaviour:
   SpawnWithObservers: 1
   DontDestroyWithOwner: 0
   AutoObjectParentSync: 1
---- !u!114 &5040740396724968153
+--- !u!114 &9217457483124972263
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -137,7 +137,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7245755987699621733}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e96cb6065543e43c4a752faaa1468eb1, type: 3}
+  m_Script: {fileID: 11500000, guid: 024f752398a7c6047862993c7fab0830, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   UseUnreliableDeltas: 0
