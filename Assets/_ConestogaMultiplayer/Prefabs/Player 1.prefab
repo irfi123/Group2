@@ -575,6 +575,7 @@ GameObject:
   - component: {fileID: 1988953516221488986}
   - component: {fileID: 3137452140610595306}
   - component: {fileID: 3036344415583411597}
+  - component: {fileID: -6515538992122187566}
   m_Layer: 0
   m_Name: Player 1
   m_TagString: Untagged
@@ -649,6 +650,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameTagText: {fileID: 1419089426137967519}
+--- !u!114 &-6515538992122187566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6019274089581788977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54a4776e7070a474cae5a099a890a8ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  avatarPrefabs: []
+  headAnchor: {fileID: 5703072412119149333}
+  leftHandAnchor: {fileID: 12215745264057137}
+  rightHandAnchor: {fileID: 5456651697786021907}
+  shrinkHead: 0
+  bodyAlignmentRate: 0.01
+  playerAvatarChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &6455675104033633284
 GameObject:
   m_ObjectHideFlags: 0
