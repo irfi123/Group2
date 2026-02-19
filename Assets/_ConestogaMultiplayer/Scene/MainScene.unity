@@ -384,7 +384,7 @@ GameObject:
   - component: {fileID: 831947378}
   - component: {fileID: 831947377}
   - component: {fileID: 831947376}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -791,7 +791,7 @@ MonoBehaviour:
   NetworkConfig:
     ProtocolVersion: 0
     NetworkTransport: {fileID: 1568622916}
-    PlayerPrefab: {fileID: 6019274089581788977, guid: 3d6f5231847ff9d429055a4a85dba56e,
+    PlayerPrefab: {fileID: 7821158359072430081, guid: aca48a11cd26e3d45a4db0571b18adbb,
       type: 3}
     Prefabs:
       NetworkPrefabsLists:
