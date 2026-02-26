@@ -613,7 +613,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 3788449737
+  GlobalObjectIdHash: 713289031
   InScenePlacedSourceGlobalObjectIdHash: 0
   AlwaysReplicateAsRoot: 0
   SynchronizeTransform: 1
@@ -662,11 +662,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54a4776e7070a474cae5a099a890a8ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  avatarPrefabs: []
+  avatarPrefabs:
+  - {fileID: 7821158359072430081, guid: aca48a11cd26e3d45a4db0571b18adbb, type: 3}
+  - {fileID: 7821158359072430081, guid: aca48a11cd26e3d45a4db0571b18adbb, type: 3}
   headAnchor: {fileID: 5703072412119149333}
   leftHandAnchor: {fileID: 12215745264057137}
   rightHandAnchor: {fileID: 5456651697786021907}
-  shrinkHead: 0
+  shrinkHead: 1
   bodyAlignmentRate: 0.01
   playerAvatarChangedEvent:
     m_PersistentCalls:

@@ -995,9 +995,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   avatarPrefabs: []
-  headAnchor: {fileID: 0}
-  leftHandAnchor: {fileID: 0}
-  rightHandAnchor: {fileID: 0}
+  headAnchor: {fileID: 856104472257321152}
+  leftHandAnchor: {fileID: 7436623962710878636}
+  rightHandAnchor: {fileID: 4714932413298541930}
   shrinkHead: 0
   bodyAlignmentRate: 0.01
   playerAvatarChangedEvent:
