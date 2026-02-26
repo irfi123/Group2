@@ -664,7 +664,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   avatarPrefabs:
   - {fileID: 7821158359072430081, guid: aca48a11cd26e3d45a4db0571b18adbb, type: 3}
-  - {fileID: 7821158359072430081, guid: aca48a11cd26e3d45a4db0571b18adbb, type: 3}
+  - {fileID: 5393426652709502333, guid: d146f115c6ea0424c9afc93ab04d24e5, type: 3}
+  - {fileID: 5393426652709502333, guid: d146f115c6ea0424c9afc93ab04d24e5, type: 3}
   headAnchor: {fileID: 5703072412119149333}
   leftHandAnchor: {fileID: 12215745264057137}
   rightHandAnchor: {fileID: 5456651697786021907}
