@@ -239,7 +239,7 @@ RectTransform:
   m_GameObject: {fileID: 4995480383241101829}
   m_LocalRotation: {x: -4.501588e-11, y: 0.9999994, z: 0.0011616038, w: -0.000000119199974}
   m_LocalPosition: {x: 0, y: 0, z: 0.05}
-  m_LocalScale: {x: 0.005, y: 0.005, z: 0.005}
+  m_LocalScale: {x: 0.02, y: 0.02, z: 0.02}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6415136093203582019}
@@ -665,8 +665,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   avatarPrefabs:
   - {fileID: 7821158359072430081, guid: aca48a11cd26e3d45a4db0571b18adbb, type: 3}
-  - {fileID: 5393426652709502333, guid: d146f115c6ea0424c9afc93ab04d24e5, type: 3}
-  - {fileID: 5393426652709502333, guid: d146f115c6ea0424c9afc93ab04d24e5, type: 3}
+  - {fileID: 7821158359072430081, guid: aca48a11cd26e3d45a4db0571b18adbb, type: 3}
   headAnchor: {fileID: 5703072412119149333}
   leftHandAnchor: {fileID: 2723196019304280098}
   rightHandAnchor: {fileID: 3494639089017907320}
