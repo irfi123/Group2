@@ -853,10 +853,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 2450322269719337323}
-    - targetCorrespondingSourceObject: {fileID: 6635245195314443262, guid: 07b9cffa39482a64da0e031e41628fbf,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1066170747889238438}
   m_SourcePrefab: {fileID: -4161369568681901532, guid: 07b9cffa39482a64da0e031e41628fbf,
     type: 3}
 --- !u!4 &362359175865444111 stripped
@@ -1009,7 +1005,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 1514203988
+  GlobalObjectIdHash: 2141140688
   InScenePlacedSourceGlobalObjectIdHash: 0
   AlwaysReplicateAsRoot: 0
   SynchronizeTransform: 1
@@ -1018,27 +1014,6 @@ MonoBehaviour:
   SpawnWithObservers: 1
   DontDestroyWithOwner: 0
   AutoObjectParentSync: 1
---- !u!114 &1066170747889238438
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7821158359072430081}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54a4776e7070a474cae5a099a890a8ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  avatarPrefabs: []
-  headAnchor: {fileID: 6278546787519643924}
-  leftHandAnchor: {fileID: 7311163119454063446}
-  rightHandAnchor: {fileID: 7493039296875415028}
-  shrinkHead: 0
-  bodyAlignmentRate: 0.01
-  playerAvatarChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!4 &9214250785488240039 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -3512545981279201704, guid: 07b9cffa39482a64da0e031e41628fbf,
