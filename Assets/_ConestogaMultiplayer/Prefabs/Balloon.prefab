@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1023844527581456685}
   - component: {fileID: 4882280185484293879}
   - component: {fileID: 3477171855266710341}
-  - component: {fileID: 6187531156784095370}
+  - component: {fileID: -5438888293010090180}
   m_Layer: 0
   m_Name: Balloon
   m_TagString: Untagged
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 645247354
+  GlobalObjectIdHash: 92164160
   InScenePlacedSourceGlobalObjectIdHash: 0
   AlwaysReplicateAsRoot: 0
   SynchronizeTransform: 1
@@ -162,7 +162,7 @@ MonoBehaviour:
   InLocalSpace: 0
   Interpolate: 1
   SlerpPosition: 0
---- !u!114 &6187531156784095370
+--- !u!114 &-5438888293010090180
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -171,6 +171,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 3529433724203663301}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0aff28cb416aba04d9c3e7207bfcf659, type: 3}
+  m_Script: {fileID: 11500000, guid: 533ea2fad25339c4dbc8a1bb551b8cad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
