@@ -11,14 +11,16 @@ public class Respawn : MonoBehaviour
     {
         originalPosition = transform.position;
         originalRotation = transform.rotation;
-
     }
 
     void Update()
     {
         if (transform.position.y < -10)
-        {
-            transform.SetPositionAndRotation(originalPosition, originalRotation);
-        }
+            DoRespawn();
+    }
+
+    public void DoRespawn()
+    {
+        transform.SetPositionAndRotation(originalPosition, originalRotation);
     }
 }
