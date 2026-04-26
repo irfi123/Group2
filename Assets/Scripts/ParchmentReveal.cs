@@ -5,6 +5,8 @@ public class ParchmentReveal : MonoBehaviour
 {
     public float revealDuration = 1f;
     public float displayDuration = 10f;
+    public AudioSource audioSource;
+    public AudioClip voiceOver;
     RectTransform rect;
     Vector2 fullSize;
 
@@ -16,6 +18,8 @@ public class ParchmentReveal : MonoBehaviour
 
     void OnEnable()
     {
+        if (audioSource != null && voiceOver != null)
+            audioSource.PlayOneShot(voiceOver);
         StartCoroutine(Reveal());
     }
 
@@ -30,7 +34,6 @@ public class ParchmentReveal : MonoBehaviour
             yield return null;
         }
         rect.sizeDelta = fullSize;
-
         yield return new WaitForSeconds(displayDuration);
         gameObject.SetActive(false);
     }
